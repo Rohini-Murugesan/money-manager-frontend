@@ -1,0 +1,24 @@
+body{
+  background-color:  rgb(250, 224, 250);/* rgb(92, 52, 92);*/
+}
+
+.header{
+  background-color: rgb(14, 0, 14); /*rgb(214, 199, 199);*/
+  padding: 20px;
+  border-radius: 20px;
+  font-size: xx-large;
+  font-weight: bolder;
+  color:  whitesmoke;
+
+}
+
+.heading{
+  background-color: rgb(92, 52, 92); /*rgb(214, 199, 199);*/
+  color: whitesmoke;
+}
+
+.tasks{
+  background-color: rgb(92, 52, 92); /*rgb(214, 199, 199);*/
+  border-radius: 5px;
+}
+
