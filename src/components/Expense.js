@@ -35,7 +35,11 @@ import {
       .then(response => response.json())
       .then(data =>{
         console.log(data)
-        setexpenseList(data.data)
+        if(data.data.length === 0){
+          alert("No Expenses are added")
+        }else{
+          setexpenseList(data.data)
+        }
       });
   }
   const addExpense = ()=>{

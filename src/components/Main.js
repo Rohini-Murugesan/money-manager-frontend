@@ -34,7 +34,11 @@ import {
       .then(response => response.json())
       .then(data =>{
         console.log(data)
-        setincomeList(data.data)
+        if(data.data.length === 0){
+          alert("No income are added")
+        }else{
+          setincomeList(data.data)
+        }
       });
   }
   const addIncome = ()=>{
